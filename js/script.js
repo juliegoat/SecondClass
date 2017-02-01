@@ -1,6 +1,6 @@
 $("#clickme").click(function(){
 	console.log("click works");
-	$("#SusanStorm").slideUp(); 
+	$("#SusanStorm").toggle(); 
 });
 
 $("#SusanStorm").mouseover(function(){
